@@ -11,8 +11,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className=" mx-auto">
-      <Nav />
-      <Hero />
+      <header className=" pt-[24px] bg-[url('/images/background.png')]">
+        <Nav />
+        <Hero />
+      </header>
       <Clients />
       <Solutions />
       <Testimonials />
